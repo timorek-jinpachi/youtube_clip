@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, render_template_string
 import google.generativeai as genai
-
+# good
 app = Flask(__name__)
 
 # --- GANTI DENGAN KUNCI API GEMINI ANDA DI SINI ---
