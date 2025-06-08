@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Pastikan tidak ada spasi di awal atau akhir kunci
 # Disarankan untuk menggunakan variabel lingkungan untuk kunci API Anda
 # Contoh: GEMINI_API_KEY = os.getenv("YOUR_GEMINI_API_KEY")
-GEMINI_API_KEY="AIzaSyDcDiHGQG7Z1FlsQGoVVVSPd3-LiN4I3UA" # <--- GANTI INI DENGAN KUNCI API ANDA
+GEMINI_API_KEY="AIzaSyBDQ8l4CyNmoZOsNiPp6-w_0zTSr_tucAo" # <--- GANTI INI DENGAN KUNCI API ANDA
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Inisialisasi model Gemini
